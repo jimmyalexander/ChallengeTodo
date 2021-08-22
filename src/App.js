@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { Principal } from './pages/Principal';
+import './styles/App.scss';
+import { TodoContext } from './TodoContext';
 
-function App() {
+export const App = () => {
+  const [tema, setTema] = useState(false);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <TodoContext.Provider value={
+      {
+        tema,
+        setTema
+      }
+    }
 
-export default App;
+    >
+      <Principal />
+    </TodoContext.Provider>
+  )
+}

@@ -1,0 +1,25 @@
+.containerHeader{
+  .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h1{
+      font-size: 2rem;
+    }
+    .moon_icon{
+      cursor: pointer;
+      animation-name: parpadeo;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+    }
+  }
+}
+@keyframes parpadeo{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+
+  }
+}

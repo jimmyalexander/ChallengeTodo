@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 900;
+  font-size: large;
+}
+.container_principal{
+  height: 100vh;
+  position: relative;
+
+  .item-1{
+    height: 40%;
+    background-image: url('../../assets/images/bg-desktop-light.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .item-2{
+    height: 70%;
+    background: hsl(235, 21%, 11%);
+  }
+  .item-light{
+    background: white;
+    height: 70%;
+    
+  }
+}

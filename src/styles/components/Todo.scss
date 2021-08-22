@@ -1,0 +1,153 @@
+
+.complete{
+  text-decoration: line-through;
+  margin-left: 10px;
+}
+.container_todo{
+  color: white;
+  margin:  auto;
+  width: 30%;
+  position: absolute;
+  top: 20%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  .todo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    form{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      input{
+        border: none;
+        border-radius: 5px ;
+        width: 100%;
+        outline: none;
+        justify-content: left;
+        padding: 10px;
+        color: #ddd;
+        background-color: hsl(237, 14%, 26%);
+        margin-bottom: 5px;
+        margin-top: 10px;
+        
+      }
+      input::placeholder{
+        color: #ddd;
+      }
+      
+    }
+
+
+    .container_view-todos{
+      width: 100%;
+      color: #ddd;
+      .view-todos{
+        width: 100%;
+        border-bottom: 1px solid #888;
+        padding: 5px 0 5px 0px;
+        display: flex;
+        align-items : center;
+        justify-content:space-between;
+        background-color: hsl(237, 14%, 26%);
+        input{
+          margin-right: 10px;
+          margin-left: 5px;
+        }
+        
+        .todo_buttons{
+          margin-left: 20px;
+        }
+
+      }
+    }
+  }
+}
+
+
+
+.light{
+  color: white;
+  margin:  auto;
+  width: 30%;
+  position: absolute;
+  top: 20%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  .todo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    form{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      input{
+        box-shadow: 2px 3px 3px #777;
+        border: none;
+        border-radius: 5px ;
+        width: 100%;
+        outline: none;
+        justify-content: left;
+        padding: 10px;
+        color: #888;
+        background-color: white;
+        margin-bottom: 5px;
+        margin-top: 10px;
+      }
+    }
+    
+    
+    .container_view-todos{
+      width: 100%;
+      color: #888;
+      box-shadow: 2px 5px 5px #777;
+      .view-todos{
+        width: 100%;
+        border-bottom: 1px solid #888;
+        padding: 5px 0 5px 0px;
+        display: flex;
+        align-items : center;
+        justify-content:space-between;
+        background-color: white;
+        input{
+          margin-right: 10px;
+          margin-left: 5px;
+        }
+       
+        .todo_buttons{
+          margin-left: 20px;
+        }
+
+      }
+    }
+  }
+  
+}
+
+
+
+
+
+@media screen and (min-width: 360px) and (max-width: 576px){
+  .container_todo{
+    width: 70%;
+  }
+  .light{
+    width: 70%;
+  }
+}
+@media screen and (min-width: 578px) and (max-width: 992px){
+  .container_todo{
+    width: 50%;
+  }
+  .light{
+    width: 50%;
+  }
+}

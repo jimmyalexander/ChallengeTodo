@@ -1,0 +1,38 @@
+.container_footer{
+  background:  hsl(235, 21%, 11%);
+  footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    a{
+      display: flex;
+      align-items: center;
+    }
+    h2{
+      margin-right: 5px;
+    }
+  }
+}
+.footer_light{
+  background: white;
+  color:  hsl(235, 21%, 11%);
+  position: relative;
+  bottom: 0;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+  footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  h2{
+    margin-right: 5px;
+  }
+}
