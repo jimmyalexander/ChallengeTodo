@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ChallengeTodo/static/css/main.9af35895.chunk.css",
+    "main.js": "/ChallengeTodo/static/js/main.928d7e73.chunk.js",
+    "main.js.map": "/ChallengeTodo/static/js/main.928d7e73.chunk.js.map",
+    "runtime-main.js": "/ChallengeTodo/static/js/runtime-main.f723a1e9.js",
+    "runtime-main.js.map": "/ChallengeTodo/static/js/runtime-main.f723a1e9.js.map",
+    "static/js/2.fcef63fa.chunk.js": "/ChallengeTodo/static/js/2.fcef63fa.chunk.js",
+    "static/js/2.fcef63fa.chunk.js.map": "/ChallengeTodo/static/js/2.fcef63fa.chunk.js.map",
+    "index.html": "/ChallengeTodo/index.html",
+    "static/css/main.9af35895.chunk.css.map": "/ChallengeTodo/static/css/main.9af35895.chunk.css.map",
+    "static/js/2.fcef63fa.chunk.js.LICENSE.txt": "/ChallengeTodo/static/js/2.fcef63fa.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/ChallengeTodo/static/media/bg-desktop-light.3508d620.jpg",
+    "static/media/icon-moon.6c03114b.svg": "/ChallengeTodo/static/media/icon-moon.6c03114b.svg",
+    "static/media/icon-sun.910b1f9a.svg": "/ChallengeTodo/static/media/icon-sun.910b1f9a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f723a1e9.js",
+    "static/js/2.fcef63fa.chunk.js",
+    "static/css/main.9af35895.chunk.css",
+    "static/js/main.928d7e73.chunk.js"
+  ]
+}
